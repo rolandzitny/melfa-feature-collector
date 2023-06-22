@@ -1,0 +1,4 @@
+slmpclient
+mitsubishi-monitor
+influxdb-client
+aiohttp

@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  feature-collector:
+    image: feature_collector:latest
+    environment:
+      - INFLUX_URL=
+      - INFLUX_TOKEN=
+      - INFLUX_ORG=
+      - INFLUX_BUCKET=
+      - DEVICE_IP=
+      - DEVICE_PORT=
+      - SLMP_TCP=
+      - FEATURE_SLEEP=
+      - FEATURE_FLUSH=
+      - LOG_LEVEL=
